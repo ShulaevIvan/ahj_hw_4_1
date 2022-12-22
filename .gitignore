@@ -1,1 +1,5 @@
 node_modules/
+dist/
+coverage/
+webpack.config.js
+src/components/card_widget/alg copy.js

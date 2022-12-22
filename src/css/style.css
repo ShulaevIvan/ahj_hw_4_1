@@ -59,4 +59,7 @@
     filter: grayscale(1);
 }
 
+.input_err {
+    border: 1px solid red;
+}
 
