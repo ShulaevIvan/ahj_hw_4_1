@@ -9,6 +9,8 @@ install:
 build: off
 test_script:
  npm run lint && npm test
+build_script:
+  npm run build
 
 deploy_script:  # скрипт развёртывания
   - git config --global credential.helper store
