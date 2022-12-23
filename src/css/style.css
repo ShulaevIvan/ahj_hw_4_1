@@ -13,6 +13,10 @@
     list-style: none;
 }
 
+.btn_container {
+    max-width: 350px;
+}
+
 .mastercard{
     content: url('../img/mastercard_60x40.png');
 }
