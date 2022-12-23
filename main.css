@@ -1,0 +1,70 @@
+.cards_img_block {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    justify-content: unset;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 350px;
+}
+.cards_img_block li {
+    margin: 0 5px 0 0;
+    list-style: none;
+}
+
+.btn_container {
+    max-width: 350px;
+}
+
+.mastercard{
+    content: url(fcad57573eee32fe589e.png);
+}
+.americanexpress {
+    content: url(7a9b0d2f5d32290df373.png);
+}
+.visa {
+    content: url(d053f8cfea2ee6a9388e.png);
+}
+.visaelectron {
+    content: url(ddb5105d6e22347a052d.png);
+}
+.diners {
+    content: url(6f4461cfc98610a1f3ea.png);
+}
+.discover {
+    content: url(0ce9ec9b44d88dfefef5.png);
+}
+.jcb {
+    content: url(8ebe65aae492a3755d59.png);
+}
+.maestro {
+    content: url(4ad07f3404d390e52c03.png);
+}
+
+.unionpay {
+    content: url(61c06549abfaafe990b9.png);
+    max-width: 60px;
+}
+
+.mir {
+    content: url(8c093d5d30720f7392a3.png);
+    max-width: 60px;
+}
+
+.instapayment {
+    content: url(1096ddc5db9ee26ae601.png);
+    max-width: 60px;
+}
+.filternone {
+    filter: none;
+}
+.filter_active {
+    filter: grayscale(1);
+}
+
+.input_err {
+    border: 1px solid red;
+}
+
+
